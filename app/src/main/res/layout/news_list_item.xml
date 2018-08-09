@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title_style"
+        tools:text="Head Line"/>
+    <TextView
+        android:id="@+id/description"
+        style="@style/description_style"
+        tools:text="A few information about that head line"/>
+    <TextView
+        android:id="@+id/author"
+        style="@style/section_author_style"
+        tools:text="Article Author"/>
+    <TextView
+       android:id="@+id/section_name"
+        style="@style/section_author_style"
+        tools:text="Section Name"/>
+    <TextView
+        android:id="@+id/date"
+        style="@style/date_style"
+        tools:text="August 6, 2018"/>
+    <TextView
+        android:id="@+id/time"
+        style="@style/time_style"
+        tools:text="10:00 AM"/>
+
+</LinearLayout>
